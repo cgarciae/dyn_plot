@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "dyn-plot"
+version = "0.1.0"
+description = ""
+authors = ["Cristian Garcia <cgarcia.e88@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4"
+matplotlib = ">=2"
+
+
+[tool.poetry.group.dev.dependencies]
+jupyter = "^1.0.0"
+ruff = "^0.4.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.ruff]
+indent-width = 2
