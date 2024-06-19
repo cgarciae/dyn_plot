@@ -6,7 +6,8 @@ Create `matplotlib` figures that can be easily updated at runtime in Jupyter.
 import numpy as np
 from dyn_plot import Plot
 
-plot = Plot(figsize=(10, 5)) # pass any arguments to plt.figure
+# accepts all plt.figure() arguments
+plot = Plot(figsize=(10, 5))
 
 ts = np.linspace(0, 10, 200)
 losses = []
