@@ -1,9 +1,10 @@
 [tool.poetry]
 name = "dyn-plot"
-version = "0.1.0"
-description = ""
+version = "0.1.1"
+description = "Dynamic matplotlib plots in Jupyter notebooks"
 authors = ["Cristian Garcia <cgarcia.e88@gmail.com>"]
 readme = "README.md"
+license = "Apache-2.0"
 
 [tool.poetry.dependencies]
 python = ">=3.9,<4"
